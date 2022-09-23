@@ -2,8 +2,8 @@
 
 const friends =['mahtab','shawon','rubel', 'mona'];
 
-friends.push='pavel'
+friends.push('agun')
 
-friends.pop=[1];
+friends.pop 
 
 console.log(friends);
