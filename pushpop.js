@@ -4,6 +4,6 @@ const friends =['mahtab','shawon','rubel', 'mona'];
 
 friends.push('agun')
 
-friends.pop 
+friends.pop();
 
 console.log(friends);
