@@ -16,5 +16,19 @@ let factorial =1;
 for(let i= 1; i <=8 ; i++){
     factorial *= i;
 }
-console.log(factorial);
+// console.log(factorial);
 
+
+// 20-6 Recalculate factorial multiple times using a function
+
+function getFactorial(numbers){
+    let factorial =1;
+    for(let i=1;i <= numbers;i++){
+        factorial *= i;
+
+    }
+    return factorial;
+}
+// const numbers= 11;
+let total = getFactorial(8);
+console.log(total);
