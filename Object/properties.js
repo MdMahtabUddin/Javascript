@@ -2,17 +2,15 @@
 
 const bottle={color:'red', hold:'water',price:45};
 
-// getting all properies name 
+// সব প্রোপার্টির নাম একসাথে পেতে চাইলে keys ব্যবহার করা হয় । 
 const keys=Object.keys(bottle);
-// console.log(keys);
 
-// getting all properties value 
+// সব প্রোপার্টির ভ্যালু একসাথে পেতে চাইলে values ব্যবহার করা হয় । 
 const values = Object.values(bottle);
-// console.log(values);
 
-// getting properties name & values 
+// সব প্রোপার্টির নাম এবং ভ্যালু একসাথে এরের ভিতর পেতে চাইলে Entries ব্যবহার করা হয় । 
 const entries= Object.entries(bottle);
-// console.log(entries)
+
 
 // property name never delete but change the value 
 Object.seal(bottle);
@@ -21,7 +19,9 @@ bottle.price= 255;
 // similar with seal but never change anything 
 Object.freeze(bottle);
 
-// delete property 
+// কোন প্রপার্টি ডিলিট করতে চাইলে ব্যবহার করা হয় 
+// কিন্তু আগে যদি seal বা freese ব্যবহার করা হয় তাহলে ডিলিট করা যাবে না । 
+// seal মডিফাই করা যাবে , কিন্তু freeze ব্যবহার করলে কোন কিছুই পরিবর্তন করা যাবে না । 
 
 delete bottle.price;
 console.log(bottle)
