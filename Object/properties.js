@@ -8,6 +8,16 @@ const keys=Object.keys(bottle);
 
 // getting all properties value 
 const values = Object.values(bottle);
-console.log(values);
+// console.log(values);
+
+// getting properties name & values 
+const entries= Object.entries(bottle);
+// console.log(entries)
+
+// delete property 
+
+delete bottle.price;
+// console.log(bottle)
+
 
 
