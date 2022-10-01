@@ -11,3 +11,4 @@ console.log(students);
 
 // kono element array te na thakle indexof dia khujle minus 1 dekhbe 
 
+console.log(students.indexOf('prity'));
