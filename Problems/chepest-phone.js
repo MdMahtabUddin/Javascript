@@ -1,6 +1,6 @@
 // PH 22-7 Find the cheapest phone from an array of phone objects
 
-const phone=[
+const phones=[
     
     {name:'Samsung s7', price:30000, camera:16, memory:64},
     {name:'Oneplus 10', price:80000, camera:32, memory:128},
@@ -9,3 +9,12 @@ const phone=[
     {name:'Xiomi m30', price:15000, camera:8, memory:128}
 ];
 
+let cheapest=phones[0];
+for (let phone of phones){
+    
+    // compare price only  
+    if(phone.price > cheapest.price){
+        cheapest =phone;
+    }
+}
+console.log(cheapest);
