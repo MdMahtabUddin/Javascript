@@ -6,8 +6,9 @@ let temp =array[0];
 array[0]=array[4];
 array[4]=temp;
 
-// console.log(array);
-
+// using swap 
+[array[1],array[4]]=[array[4],array[1]];
+console.log(array);
 
 
 
