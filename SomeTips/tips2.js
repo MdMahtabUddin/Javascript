@@ -23,8 +23,8 @@ const language ={
     founder:'branden eich'
 };
 
-const {name, founder}=language;
-console.log({name, founder});
+const {name:languageName, founder:creatorName}=language;
+console.log({languageName, creatorName});
 
 
 
