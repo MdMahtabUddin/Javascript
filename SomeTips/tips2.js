@@ -17,14 +17,26 @@ array[4]=temp;
 // 3.destructuring alisis 
 
 //3. destructuring aliasis 
+
 const language ={
     name: 'javascript',
     founded:1995,
     founder:'branden eich'
 };
+// name:languageName, founder:creatorName নিক নাম হিসাবে কাজ করবে । 
 
 const {name:languageName, founder:creatorName}=language;
-console.log({languageName, creatorName});
+// console.log({languageName, creatorName});
+
+// 4. get value as data type 
+
+// ??
+
+// 5.remove duplicate from array  
+
+
+
+
 
 
 
