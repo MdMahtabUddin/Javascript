@@ -8,7 +8,23 @@ array[4]=temp;
 
 // using swap 
 [array[1],array[4]]=[array[4],array[1]];
-console.log(array);
+// console.log(array);
+
+// 2. 
+
+// ??
+
+// 3.destructuring alisis 
+
+//3. destructuring aliasis 
+const language ={
+    name: 'javascript',
+    founded:1995,
+    founder:'branden eich'
+};
+
+const {name, founder}=language;
+console.log({name, founder});
 
 
 
