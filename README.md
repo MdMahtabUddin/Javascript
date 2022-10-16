@@ -1,1 +1,3 @@
-<details> <summary> JS </summary> </details>
+<details> <summary> JS
+  
+  hello world one two three four five</summary> </details>
