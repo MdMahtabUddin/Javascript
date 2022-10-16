@@ -1,3 +1,1 @@
-# Javascript 
-
-</details>
+<details> <summary> JS </summary> </details>
