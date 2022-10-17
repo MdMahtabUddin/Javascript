@@ -1,6 +1,9 @@
 <details> <summary> STRING
   
- </summary> hello world one two three four five </details>
+ </summary> indexOf() দিয়ে প্রথম ম্যাচিং এর index বা পজিশন পাওয়া যায় । 
+includes() কোন কিছু যদি খুঁজে বের করতে হয় তাহলে ব্যবহার করা হয় । 
+startsWith() প্রথম দিকের যে জিনিস খুঁজে বের করবে তার সাথে  মিল রেখে বের করবে 
+endsWith() শেষের  দিকের যে জিনিস খুঁজে বের করবে তার সাথে  মিল রেখে বের করবে  </details>
  
  <details> <summary> DATA TYPE
   
