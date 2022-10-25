@@ -14,6 +14,11 @@ const result =number*2
 const output2 =numbers.map(num =>num*2)
 // console.log(output2)
 
+
+// map() অ্যারের প্রতিটা উপাদানের জন্য ফাংশন কল করে । 
+// ফাংশনের নতুন মান গুলো একটা অ্যারেতে রিটান করে । 
+
+
 // loop through each Element
 // for each Element call the provided function
 // result for each Element stored in a array 
