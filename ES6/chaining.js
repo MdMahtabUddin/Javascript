@@ -13,4 +13,9 @@ const [shawon, mona, pavel ] =[20,50,70]
 // console.log(shawon)
 
 // chaining 
-?? 
+const company ={
+    ceo:{name:'mahtab',address:'506/B'},
+    web:{
+        
+    }
+}
