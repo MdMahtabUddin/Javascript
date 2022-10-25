@@ -10,4 +10,8 @@ const products =[
 
 const productDetails =products.map(product =>product.name)
 
+// forEach()  ম্যাপের মত কাজ করলেও , অ্যারে রিটান করবে না , 
+const productDetails2 =products.forEach(product =>product.name)
+
 console.log(productDetails)
+console.log(productDetails2)
