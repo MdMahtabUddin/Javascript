@@ -7,4 +7,13 @@
   /bangladesh/i
 // এখানে i হচ্ছে কেইস ইন্সেন্সেটিভ ছোট বা বড় হাতের হলেও সে খুঁজে নিবে 
 
+// স্ট্রিং মেথড  search এবং replace এই দুটো ফাংশন ব্যবহার করতে হবে । 
+
+let country ='welcome to Bangladesh';
+console.log(country.search(/bangladesh/i));
+
+// using replace
+console.log(country.replace('Bangladesh','Germany'))
+
+
 
