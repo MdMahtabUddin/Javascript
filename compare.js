@@ -10,3 +10,4 @@ if(first == third){
 }else{
     console.log('objects are diffrent')
 }
+
