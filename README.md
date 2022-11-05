@@ -32,38 +32,5 @@ endsWith() শেষের  দিকের যে জিনিস খুঁজ�
 
 
 
- <details> <summary> DATA TYPE
-  
- </summary> <details> 
- 
- <summary> 29-2 Apply Search includes, indexOf, startswith, endswith
-  
- </summary> indexOf() দিয়ে প্রথম ম্য
- </details>
 
-</details>
- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
- 
-<details> <summary> COMPARISION
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- 
- <details> <summary> CONDITION
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- 
- <details> <summary> LOOP
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- 
- 
- <details> <summary> OBJECT
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- 
  
