@@ -66,21 +66,4 @@ endsWith() শেষের  দিকের যে জিনিস খুঁজ�
  </summary> hello world one two three four five </details>
  -----------------------------------------------------------
  
- <details> <summary> ARRAY
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
  
- 
- <details> <summary> FUNCTION
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- 
- <details> <summary> ES6
-  
- </summary> hello world one two three four five </details>
- -----------------------------------------------------------
- <details> <summary> Problems
-  
- </summary> hello world one two three four five </details>
