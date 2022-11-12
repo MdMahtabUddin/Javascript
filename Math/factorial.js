@@ -34,9 +34,9 @@
 // console.log(total);
 
 
-// let factorial1 =1;
-// for (i=1; i<=15;i++){
-//     factorial1 *= i
+let factorial1 =1;
+for (i=1; i<=15;i++){
+    factorial1 *= i
 
-// }
-// console.log(factorial1)
+}
+console.log(factorial1)
