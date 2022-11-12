@@ -12,23 +12,31 @@
 // তাই ভ্যরিয়েবলের মান লুপের বাহিরে রাখতে হবে । 
 // ভ্যরিয়েবলের মান ১ সেট করতে হবে , জিরো সাথে সংখ্যা গুন করলে জিরো ই হবে । 
 
-let factorial =1;
-for(let i= 1; i <=8 ; i++){
-    factorial *= i;
-}
+// let factorial =1;
+// for(let i= 1; i <=8 ; i++){
+//     factorial *= i;
+// }
 // console.log(factorial);
 
 
 // 20-6 Recalculate factorial multiple times using a function
 
-function getFactorial(numbers){
-    let factorial =1;
-    for(let i=1;i <= numbers;i++){
-        factorial *= i;
+// function getFactorial(numbers){
+//     let factorial =1;
+//     for(let i=1;i <= numbers;i++){
+//         factorial *= i;
 
-    }
-    return factorial;
-}
-// const numbers= 11;
-let total = getFactorial(8);
-console.log(total);
+//     }
+//     return factorial;
+// }
+// // const numbers= 11;
+// let total = getFactorial(8);
+// console.log(total);
+
+
+// let factorial1 =1;
+// for (i=1; i<=15;i++){
+//     factorial1 *= i
+
+// }
+// console.log(factorial1)
