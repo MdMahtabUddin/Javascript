@@ -2,7 +2,7 @@
 
 const numbers =[44,34,23,78,98,20];
 
-const maxInArray = Math.max(...numbers);
+// const maxInArray = Math.max(...numbers);
 // console.log(maxInArray);
 
 // অ্যারে থেকে উপাদান গুলো নিয়ে আসে থ্রি ডটস ... 
@@ -10,5 +10,15 @@ const maxInArray = Math.max(...numbers);
 
 // আগের অ্যারের উপাদান গুলো নিয়ে এসে আরেকটা অ্যারে বানানো যায় 
  
-const numbers2 =[...numbers, 50,888];
-console.log(numbers2)
+// const numbers2 =[...numbers, 50,888];
+// console.log(numbers2)
+
+// revision
+
+// const numbers3 =[...numbers, 67,99,45]
+// console.log(numbers3)
+
+const mynumber = Math.max(...numbers)
+
+console.log(mynumber)
+
