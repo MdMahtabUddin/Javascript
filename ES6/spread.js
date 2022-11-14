@@ -14,7 +14,7 @@ const numbers =[44,34,23,78,98,20];
 // console.log(numbers2)
 
 // revision
-
+// 14 nov 
 // const numbers3 =[...numbers, 67,99,45]
 // console.log(numbers3)
 
