@@ -9,10 +9,18 @@ this is forth line`
 console.log (newLine); 
 
 // dynamic string 
-const firstName = 'mahtab';
-const lastName ='uddin';
+// const firstName = 'mahtab';
+// const lastName ='uddin';
 
-const old = firstName +  ''  + lastName;
-console.log(old);
-const newStyle = `${firstName} ${lastName}`
-console.log(newStyle)
+// const old = firstName +  ''  + lastName;
+// console.log(old);
+// const newStyle = `${firstName} ${lastName}`
+// console.log(newStyle)
+
+// revision
+// 14nov
+const homeDistrict ='Feni'
+const countryName ='Bangladesh'
+
+const details =`${homeDistrict} ${countryName}`
+console.log(details)
