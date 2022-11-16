@@ -1,7 +1,7 @@
 // PH 36-3 Keys, values, entries, delete, seal, freeze
 
 // const bottle={color:'red', hold:'water',price:45};
-const products={color:'red', hold:'water',price:45};
+// const products={color:'red', hold:'water',price:45};
 
 
 // সব প্রোপার্টির নাম একসাথে পেতে চাইলে keys ব্যবহার করা হয় । 
@@ -10,7 +10,7 @@ const products={color:'red', hold:'water',price:45};
 
 // সব প্রোপার্টির ভ্যালু একসাথে পেতে চাইলে values ব্যবহার করা হয় । 
 // const values = Object.values(bottle);
-const values =Object.values(products)
+// const values =Object.values(products)
 
 // সব প্রোপার্টির নাম এবং ভ্যালু একসাথে এরের ভিতর পেতে চাইলে Entries ব্যবহার করা হয় । 
 // const entries= Object.entries(bottle);
@@ -29,7 +29,16 @@ const values =Object.values(products)
 
 // delete bottle.price;
 // console.log(bottle)
-console.log(products)
+// console.log(products)
 
+
+// revision 
+// 16nov
+
+const product1 = {color:'red', brand:'samsaung', price:45999};
+const keys =Object.keys(product1)
+// console.log(keys)
+const values =Object.values(product1)
+console.log(values)
 
 
