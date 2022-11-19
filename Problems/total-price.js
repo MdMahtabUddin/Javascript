@@ -7,14 +7,14 @@ const shopping =[
     {name:'Shirt', price:600, quantity:3},
     {name:'Pant', price:1200, quantity:3}
 ];
-let totalCart =0;
-for (const cart of shopping){
-    const productTotal =cart.price *cart.quantity;
-    totalCart += productTotal;
+// let totalCart =0;
+// for (const cart of shopping){
+//     const productTotal =cart.price *cart.quantity;
+//     totalCart += productTotal;
 
 
-}
-console.log(totalCart)
+// }
+// console.log(totalCart)
 
 
 // revision 19 nov 
