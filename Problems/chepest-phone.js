@@ -9,12 +9,13 @@ const phones=[
     {name:'Xiomi m30', price:15000, camera:8, memory:128}
 ];
 
-let cheapest=phones[0];
-for (let phone of phones){
+// let cheapest=phones[0];
+// for (let phone of phones){
     
-    // compare price only  
-    if(phone.price > cheapest.price){
-        cheapest =phone;
-    }
-}
-console.log(cheapest);
+//     // compare price only  
+//     if(phone.price > cheapest.price){
+//         cheapest =phone;
+//     }
+// }
+// console.log(cheapest);
+

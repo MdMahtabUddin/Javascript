@@ -15,3 +15,12 @@ for (const cart of shopping){
 
 }
 console.log(totalCart)
+
+
+// revision 19 nov 
+
+for(let cart of shopping){
+    const total = cart.price *cart.quantity
+    totalCart +=total
+}
+console.log(totalCart)
